@@ -16,7 +16,7 @@ namespace PhotoDiary
     public partial class Form1 : Form
     {
         string cs = ConfigurationManager.ConnectionStrings["photoGal"].ConnectionString; //database connrcetion string
-        public SqlConnection conn;// start connection
+        public SqlConnection conn;
         SqlCommand cmd;
         public DataSet ds;// for get the autometic list
         public Form1()
